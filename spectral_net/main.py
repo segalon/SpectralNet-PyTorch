@@ -72,7 +72,6 @@ def train(model, params, dataset_train):
   
             optimizer.step()
   
-    acc = get_cluster_acc(model, dataset_train, k, input_sz)
     if epoch % print_every == 0:
       with torch.no_grad():
         acc = get_cluster_acc(model, dataset_train, k, input_sz)
