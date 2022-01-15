@@ -1,5 +1,5 @@
 # SpectralNet-PyTorch
-PyTorch implementation of <a href="https://arxiv.org/abs/1801.01587" SpectralNet></a>.
+A PyTorch implementation of [SpectralNet](https://arxiv.org/abs/1801.01587) 
 
 Implemented affinities:
 * rbf kernel 
