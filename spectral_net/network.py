@@ -4,7 +4,7 @@ import torch.nn.functional as F
 import torch.optim as optim
 
 
-def orthonorm(Q, eps=1e-3):
+def orthonorm(Q, eps=1e-7):
   m = torch.tensor(Q.shape[0]) # batch size
   outer_prod = torch.mm(Q.T, Q)
   outer_prod = outer_prod + eps * torch.eye(outer_prod.shape[0])
