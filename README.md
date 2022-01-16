@@ -10,7 +10,7 @@ In order to run on a different dataset and modify hyperparameters, modify main.p
 A tricky hyper-parameter is the epsilon for the Cholesky decomposition, in case Cholesky fails you may want to play with it.
 
 Clustering results on two nested C-shaped clusters with this implementaion, using the rbf kernel:
-![nested_cs](clustering_sn.png)
+![nested_cs](spectral_net_cc.png)
 
 
 
