@@ -105,7 +105,7 @@ params = {
   "n_hidden_2": 512,
   "batch_size": x_train.shape[0],
   "gamma": 23,
-  'epsilon': 1e-4,
+  'epsilon': 1e-7,
   "input_sz": x_train.shape[1],
   "affinity": "rbf",
   'lr': lr, 
